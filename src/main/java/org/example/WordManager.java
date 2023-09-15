@@ -21,7 +21,7 @@ public class WordManager {
             + "5. 단어 수정\n"
             + "6. 단어 삭제\n"
             + "7. 파일 저장\n"
-            + "8. 나가기\n"
+            + "0. 나가기\n"
             + "********************\n"
             + "=> 원하는 메뉴는? ");
 
@@ -30,14 +30,30 @@ public class WordManager {
     }
 
     public void start() {
+        wordCRUD.loadFile();
         while(true){
             int menu = selectMenu();
             if (menu == 0) break;
             if (menu == 4){
                 wordCRUD.addWord();
             }
-            if (menu == 1){
+            else if (menu == 1) {
                 wordCRUD.listAll();
+            }
+            else if (menu == 2){
+                wordCRUD.searchLevel();
+            }
+            else if (menu == 3){
+                wordCRUD.searchWord();
+            }
+            else if (menu == 5) {
+                wordCRUD.updateItem();
+            }
+            else if (menu == 6){
+                wordCRUD.deleteItem();
+            }
+            else if (menu == 7){
+                wordCRUD.saveFile();
             }
 
         }
