@@ -1,5 +1,19 @@
-1| aaa|aaa
-2| bbb|bbb
-3| ccc|ccc
-1| ddd|ddd
-2||eee
+1|culture|문화,교양
+1|experience|경험
+1|education|교육
+1|symbol|상징
+1|effect|결과,영향,효과
+2|liberty|자유
+2|affair|사건,일
+1|comfort|안락,위안
+1|tradition|전통,전설
+1|subject|학과,주제,주어
+1|object|사물,목적,반대하다
+1|source|출처,근원
+1|revolution|출처,근원
+3|puritan|청교도
+3|riddle|수수께끼
+2|oblige|강요하다
+3|lament|슬퍼하다, 비탄하다
+3|plague|애태우다,괴롭히다
+2|nibble|물어뜯다
